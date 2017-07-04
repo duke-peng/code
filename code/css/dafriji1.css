@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+ul, li {
+  list-style: none; }
+
+#main {
+  width: 480px;
+  height: 100%;
+  margin: 0 auto;
+  background: url(../images2/bg.jpg) repeat-y;
+  position: relative; }
+
+/*# sourceMappingURL=dafriji1.css.map */
