@@ -23,13 +23,14 @@ var myPlane = {
 	
 	//开火
 	fire: function(){
-		setInterval(function(){
+		setInterval(()=>{
 			//创建子弹
 			var bullet = new Bullet();
 			bullet.init().move(); //初始化子弹对象并移动
 		}, myPlane.fireInterval);
 		
-	},
+	}
+	,
 	
 	//move
 	move: function(){
